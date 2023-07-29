@@ -8,12 +8,8 @@ body {
     margin: 0 auto;
 }
 
-header {
-    position: relative;
-}
-
 .restaurant-menu {
-    margin-top: min(4vw, 24px);
+    margin-top: min(26vw, 156px);
 }
 
 .restaurant-menu-item {
@@ -25,7 +21,7 @@ header {
 }
 
 .title {
-    position: absolute;
+    position: fixed;
     top: min(7.7vw, 46px);
     left: min(7.7vw, 46px);
     color: white;
@@ -107,6 +103,9 @@ p {
 }
 
 .main-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: block;
     width: 100%;
 }
@@ -143,6 +142,7 @@ p {
 
 .complete-order-btn {
     margin-top: min(5.5vw, 33px);
+    margin-bottom: min(5.5vw, 33px);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     font-size: .9rem;
