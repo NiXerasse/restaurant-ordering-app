@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+.restaurant-menu {
+    margin-top: 50px;
+}
+
+.restaurant-menu-item {
+    display: flex;
+    margin: 0 min(8vw, 46px);
+    padding-bottom: 50px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.title {
+    position: absolute;
+    top: min(7.7vw, 46px);
+    left: min(7.7vw, 46px);
+    color: white;
+}
+
+.dish-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.dish-name, .dish-ingredients, .dish-price {
+    margin: 0;
+}
+
+.dish-name {
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.dish-ingredients {
+    font-size: 1rem;
+    color: #8B8B8B;
+    margin-bottom: .5em;
+}
+
+.dish-price {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: min(6.5vw, 39px);
+    line-height: min(4vw, 24px);
+    margin: 0;
+}
+
+p {
+    font-size: min(3.65vw, 22px);
+    line-height: min(2.3vw, 14px);
+    margin-top: min(3.2vw, 19px);
+}
+
+
+.main-logo {
+    display: block;
+    width: 100%;
+}
+
+.dish-img {
+    margin-right: min(5vw, 32px);
+    height: 6rem;
+}
+
+.dish-add-btn {
+    width: 1.7em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #3C3C3C;
+    text-align: center;
+    padding-bottom: .25rem;
+    background-color: white;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    margin: .5rem 0 auto auto;
+}
+
+/* utility classes */
+.bordered {
+    border: 1px solid red;
+}
