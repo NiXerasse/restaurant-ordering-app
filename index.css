@@ -89,6 +89,48 @@ body {
     margin: 0 min(8vw, 46px) 0 min(8vw, 46px);
 }
 
+.card-details-form {
+    position: fixed;
+    top: min(46vw, 276px);
+    right: calc(max(0px, 50vw - 300px) + min(8vw, 46px));
+    left: calc(max(0px, 50vw - 300px) + min(8vw, 46px));
+    padding: 2rem 1.3rem 0 1.3rem;
+
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 255px 0px #00000080;
+}
+
+.card-details-form-title {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.card-details-form-input {
+    padding: 1.2em;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #757575;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.thanks {
+    margin: min(8vw, 46px) min(8vw, 46px);
+    text-align: center;
+    font-size: 1.7rem;
+    color: #065F46;
+    background-color: #ECFDF5;
+    padding: 1.5em;
+    border-radius: 2px;
+}
+
 h1 {
     font-weight: 400;
     font-size: min(6.5vw, 39px);
@@ -141,22 +183,28 @@ p {
     /* margin-top: min(1vw, 6px); */
 }
 
-.complete-order-btn {
+.complete-order-btn, .card-details-form-button {
     margin-top: min(5.5vw, 33px);
     margin-bottom: min(5.5vw, 33px);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
-    font-size: .9rem;
     padding: 1.1em 0;
     color: white;
     border: none;
     border-radius: 3px;
     box-shadow: 0 1px 2px black 5%;
-    background-color: #16DB99;
-    
+    background-color: #16DB99;    
+}
+
+.complete-order-btn {
+    font-size: .9rem;
 }
 
 /* utility classes */
 .bordered {
     border: 1px solid red;
+}
+
+.hidden {
+    display: none;
 }

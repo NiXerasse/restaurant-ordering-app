@@ -52,7 +52,7 @@
                     <button class="dish-add-btn">+</button>
                 </div>
             </div>
-            <div class="order">
+            <div class="order hidden">
                 <h2 class="order-title">Your order</h2>
                 <div class="order-item">
                     <h2 class="order-item-name">Pizza</h2>
@@ -69,10 +69,18 @@
                     <h3 class="total-price-value">$26</h3>
                 </div>
             </div>
-            <div class="complete-order-btn-container">
+            <div class="complete-order-btn-container hidden">
                 <button class="complete-order-btn">Complete order</button>
             </div>
+            <h1 class="thanks hidden">Thanks, James! Your order is on its way!</h1>
         </div>
+        <form class="card-details-form hidden">
+            <h2 class="card-details-form-title">Enter card details</h2>
+            <input class="card-details-form-input" placeholder="Enter your name" required>
+            <input class="card-details-form-input" placeholder="Enter card number" required>
+            <input class="card-details-form-input" placeholder="Enter CVV" required>
+            <button class="card-details-form-button">Pay</button>
+        </form>
 	    <script src="index.js" type="module"></script>
     </body>
 
